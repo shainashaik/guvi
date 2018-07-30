@@ -3,21 +3,25 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
+import java.util.Scanner;
 
 /* Name of the class has to be "Main" only if the class is public. */
 class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int sum=0,n=371,a,temp;
+		int sum=0,n,a,temp;
+		 
+		Scanner s=new Scanner(System.in);
+		n=s.nextInt();
 		temp=n;
-		while(n>0)
+		while(n!=0)
 		{
 			a=n%10;
 			n=n/10;
 			sum=sum+(a*a*a);
 		}
-		if(temp==sum)
+		if(sum==temp)
 		{
 			System.out.println("yes");
 		}
@@ -27,5 +31,6 @@ class Ideone
 		}
 		}
 		}
+		
 		
 	
