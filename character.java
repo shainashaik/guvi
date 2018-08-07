@@ -20,5 +20,6 @@ class Ideone
 		System.out.print(count);
 		
 			
-		}
 	}
+}
+	
