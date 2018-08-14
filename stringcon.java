@@ -12,6 +12,6 @@ class String
 		Scanner s=new Scanner(System.in);
 		String s1=s.next();
 		String s2=s.next();
-		System.out.println(s1+s2);
+		System.out.print(s1+s2);
 	}
 }
