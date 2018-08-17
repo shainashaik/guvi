@@ -11,7 +11,7 @@ class Ideone
 	{
 		String n;
 		Scanner s=new Scanner(System.in);
-		n=s.next();
+		n=s.nextLine();
 		System.out.print(n);
 	}
 }
