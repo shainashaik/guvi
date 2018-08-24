@@ -18,28 +18,18 @@ class Ideone
 		for(i=l+1;i<r;i++);
 			{
 			if(n%i==0)
-			{
+			
 				flag=true;
 			}
-			}
 			if(flag==true)
-			{
-{
-	
-}			
-				System.out.print("yes");
-			}
-			
-			
+                  System.out.print("yes");
 			else
-			{
-			
-				System.out.print("no");
+			System.out.print("no");
 			}
 			}
 			
 			
 			
-			}
+			
 		
 	
