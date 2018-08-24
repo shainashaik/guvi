@@ -14,7 +14,8 @@ class Ideone
 		n=s.nextInt();
 		m=s.nextInt();
 		k=n*m;
-		if(k/n==n)
+		int sqrt=(int) Math.sqrt(k);
+		if(sqrt*sqrt==k)
 		{
 			System.out.print("yes");
 		}
@@ -24,3 +25,4 @@ class Ideone
 		}
 		}
 	}
+
